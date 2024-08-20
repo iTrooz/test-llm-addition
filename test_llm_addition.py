@@ -59,7 +59,7 @@ def main():
     print("NUM_ITER:", NUM_ITER)
     print("MAX_PAIR_RANGE:", MAX_PAIR_RANGE)
     print("Good:", good)
-    print("Bad:", bad)            
+    print("Bad:", bad)
     print("Fails:", fails)
 
 
