@@ -38,7 +38,7 @@ def test_random_pair():
     if c == a + b:
         return True
     else:
-        print(f"Error: {a} + {b} = {c}, but LLM said {c}")
+        print(f"Error: {a} + {b} = {a+b}, but LLM said {c}")
         return False
     
 
