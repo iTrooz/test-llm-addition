@@ -45,17 +45,22 @@ def test_random_pair():
 def main():
     good = 0
     bad = 0
+    fails = 0
     for i in tqdm(range(NUM_ITER)):
         res = test_random_pair()
         if res == True:
             good += 1
         elif res == False:
             bad += 1
+        elif res == None:
+            fails += 1
 
     print("Results:")            
     print("NUM_ITER:", NUM_ITER)
+    print("MAX_PAIR_RANGE:", MAX_PAIR_RANGE)
     print("Good:", good)
     print("Bad:", bad)            
+    print("Fails:", fails)
 
 
 main()
