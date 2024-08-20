@@ -1,3 +1,6 @@
+# Description
+This is a imple python script to check how LLMs perform at simple additions
+
 # Results:
 ## GPT 3.5 turbo
 ### 1
